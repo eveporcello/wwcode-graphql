@@ -49,6 +49,7 @@ GraphQL Resources
 
 Presenter Info
 ----
+* [Slides](https://docs.google.com/presentation/d/1-qEqr4xQxI4qnu4h_N-9-MfeHyce6dqOn_cdMFfODJc/edit?usp=sharing)
 * Eve Porcello: [@eveporcello](https://twitter.com/eveporcello)
 * [eve@moonhighway.com](mailto:eve@moonhighway.com)
 * [GraphQL Workshop](https://www.graphqlworkshop.com)
