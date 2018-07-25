@@ -1,44 +1,55 @@
-GraphQL Workshop - We Rise
-==========
+GraphQL Workshop - WWCode Reno
+===============
+This talk will go over the basics of the GraphQL query language and how to stand up a GraphQL Server using Apollo Server 2.0. 
 
-## GraphQL Resources
+Send Queries
+----
+* [Snowtooth Mountain API](http://snowtooth.moonhighway.com): A real GraphQL API for a fake ski resort
 
-Here are some resources to help you in your journey with GraphQL!
+PhotoShare Demo Instructions
+----
+To run the finished project:
+1. Run `npm install` or `yarn` to install the dependencies.
+2. Run `npm start` and open your browser to `http://localhost:4000`.
+3. Try out a test query with GraphQL Playground. Add the following to the left panel and click "Play":
 
-## GraphQL Workshop Projects
-* [PhotoShare API](https://github.com/graphqlworkshop/photo-share-api)
-* [PhotoShare Client](https://github.com/graphqlworkshop/photo-share-client)
+```graphql
+query {
+  allPhotos {
+    name
+    description
+    postedBy {
+      name
+    }
+  }
+}
+```
+Or check out the project on Glitch!
 
-### Graph Theory
+[![Remix on Glitch](https://cdn.glitch.com/2703baf2-b643-4da7-ab91-7ee2a2d00b5b%2Fremix-button.svg)](https://glitch.com/edit/#!/remix/eveporcello-oscon)
 
-* [From REST to GraphQL](https://0x2a.sh/from-rest-to-graphql-b4e95e94c26b)
-* [A Gentle Introduction to Graph Theory](https://dev.to/vaidehijoshi/a-gentle-introduction-to-graph-theory)
-* [Euler's Solution to the Konigsberg Bridge Problem](www.maa.org/press/periodicals/convergence/leonard-eulers-solution-to-the-konigsberg-bridge-problem)
+GraphQL Resources
+----
+### GraphQL Documentation
+* [GraphQL](http://www.graphql.org): The main website for the GraphQL project.
+* [GraphQL on GitHub](https://github.com/graphql/): The main GitHub repo for GraphQL's documentation, reference implementation (GraphQL.js), and other related projects
+* [GraphQL Spec](http://facebook.github.io/graphql): GraphQL's specification
+* [Apollo Docs](https://www.apollographql.com/docs): Apollo's documentation
+* [GraphQL Community Resources](https://graphql.org/community/): Links to conference talks, Slack channels, Twitter accounts, blogs, and more, curated by the GraphQL community
 
-### GraphQL
+### GraphQL APIs
+* [GitHub API](https://developer.github.com/v4/): GitHub's public API
+* [SWAPI](https://graphql.org/swapi-graphql/): The Star Wars API
+* [Public GraphQL APIs](https://graphql.org/community): A list of public APIs that can be queried with GraphQL
 
-* [GraphQL Docs](http://graphql.org/)
-* [Github GraphQL Explorer](https://developer.github.com/v4/explorer/)
-* [How To GraphQL](https://www.howtographql.com/)
-* [Schema Language Cheat Sheet](https://github.com/sogko/graphql-schema-language-cheat-sheet)
+### GraphQL Clients
+* [Apollo Client](https://www.apollographql.com/docs/react/): The GraphQL client developed by Meteor Development Group
+* [Relay](https://facebook.github.io/relay/): Facebook's GraphQL client library
+* [urql](https://github.com/FormidableLabs/urql): Formidable Labs minimal React Query Library  
 
-### Apollo
-
-* [Apollo GraphQL](https://www.apollographql.com/)
-* [React Apollo](https://github.com/apollographql/react-apollo)
-* [Schema Stitching](https://www.apollographql.com/docs/graphql-tools/schema-stitching.html)
-
-### Relay
-
-* [Relay Modern](https://facebook.github.io/relay/)
-* [Relay Tutorial](https://facebook.github.io/relay/docs/tutorial.html)
-
-### Other
-
-* [Slides](https://docs.google.com/presentation/d/1uU-4Cw-hWfeXX8YJPH4MGyqGLPyrVf_9uU74XZZS2TM/edit?usp=sharing)
-* [Snowtooth Playground](http://snowtooth.herokuapp.com/playground)
-* [Learning GraphQL on Lynda](https://www.lynda.com/JavaScript-tutorials/Learning-GraphQL/574714-2.html)
+Presenter Info
+----
+* Eve Porcello: [@eveporcello](https://twitter.com/eveporcello)
+* [eve@moonhighway.com](mailto:eve@moonhighway.com)
 * [GraphQL Workshop](https://www.graphqlworkshop.com)
-
-Questions? Contact Eve Porcello, [eve@moonhighway.com](mailto:eve@moonhighway.com), [@eveporcello](https://www.twitter.com/eveporcello)
-
+* [Moon Highway](https://www.moonhighway.com)

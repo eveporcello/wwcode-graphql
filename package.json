@@ -1,25 +1,25 @@
 {
-  "name": "werise-graphql",
+  "name": "wwcode-graphql",
   "version": "1.0.0",
-  "description": "An intro to GraphQL at WeRise Tech Conference in Atlanta!",
+  "description": "A project to introduce GraphQL with Apollo Server 2.0.",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon . -e js,graphql"
+    "start": "nodemon ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/eveporcello/werise-graphql.git"
+    "url": "git+https://github.com/eveporcello/oscon.git"
   },
   "keywords": [
     "graphql",
-    "javascript",
-    "fun",
-    "joy"
+    "apollo",
+    "apis"
   ],
   "author": "Eve Porcello",
   "license": "MIT",
   "dependencies": {
-    "graphql-yoga": "^1.14.10",
-    "nodemon": "^1.17.5"
+    "apollo-server": "2.0.0",
+    "graphql": "0.13.2",
+    "nodemon": "1.18.2"
   }
 }
